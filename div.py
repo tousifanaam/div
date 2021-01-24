@@ -16,7 +16,6 @@ def div(b,a,value_after_decimal=True,full=False):
         if b < 0 and a < 0:
             b = b * -1
             a = a * -1
-            pass
         elif b < 0:
             b = b * -1
             neg = True
